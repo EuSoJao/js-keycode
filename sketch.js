@@ -15,7 +15,6 @@ function draw() {
 
 function keyDetect(){
     if(keyIsPressed === true){
-    console.log(`${keyCode} ${key}`)
     h1.html(`${keyCode}`)
     }
 }
